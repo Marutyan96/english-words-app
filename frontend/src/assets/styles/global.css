@@ -1,0 +1,27 @@
+.word-pair {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.russian-word {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.separator {
+  color: #999;
+}
+
+.english-word {
+  color: #3498db;
+  font-style: italic;
+}
+
+.search-input {
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
