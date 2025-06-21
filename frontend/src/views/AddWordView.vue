@@ -29,6 +29,7 @@
 
 <script>
 import WordInputForm from '@/components/WordInputForm.vue'
+import WordThemes from '@/components/WordThemes.vue'
 import WordList from '@/components/WordList.vue'
 import wordMixin from '@/mixins/wordMixin.js'
 
@@ -36,7 +37,8 @@ export default {
   name: 'AddWordView',
   components: {
     WordInputForm,
-    WordList
+    WordList,
+    WordThemes
   },
   mixins: [wordMixin],
   data() {
@@ -147,11 +149,11 @@ export default {
 .page-content {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+
 }
 
 h1 {
-  color: #2c3e50;
+  color: #e8e8e8;
   margin-bottom: 30px;
 }
 </style>

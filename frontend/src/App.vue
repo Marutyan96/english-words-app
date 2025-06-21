@@ -23,7 +23,6 @@ export default {
 </script>
 
 <style>
-/* Базовые стили */
 * {
   margin: 0;
   padding: 0;
@@ -33,8 +32,9 @@ export default {
 html, body {
   width: 100%;
   min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  background-color: rgb(6, 67, 118); /* Перенесли фон сюда */
 }
 
 #app {
@@ -42,7 +42,7 @@ html, body {
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
-  color: #fff; /* Белый текст для контраста с синим фоном */
+  color: var(--color-text);
 }
 
 .main-nav {
@@ -50,17 +50,16 @@ html, body {
   top: 0;
   left: 0;
   right: 0;
-  background: white;
+  background-color: var(--color-background-soft);
   padding: 15px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
   z-index: 100;
   text-align: center;
-  width: 100%;
 }
 
 .main-nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: var(--color-heading);
   text-decoration: none;
   margin: 0 10px;
   padding: 5px 10px;
@@ -69,19 +68,20 @@ html, body {
 }
 
 .main-nav a:hover {
-  background-color: #f5f5f5;
+  background-color: var(--color-background-mute);
 }
 
 .main-nav a.router-link-exact-active {
-  color: #42b983;
+  color: var(--color-accent);
 }
 
 .content-container {
-  margin: 70px auto 0; /* Убрали нижний отступ, так как фон теперь на body */
+  margin: 70px auto 0;
   padding: 20px;
   width: 100%;
   flex: 1;
-  background-color: white; /* Белый фон для контента */
-  color: #2c3e50; /* Стандартный цвет текста */
+  background-color: var(--color-background-soft);
+  color: var(--color-heading);
 }
+
 </style>

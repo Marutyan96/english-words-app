@@ -99,7 +99,7 @@ export default {
 
 h1 {
   font-size: 1.8rem;
-  color: #333;
+  color: #e8e8e8;
   text-align: center;
   margin-bottom: 1.2rem;
 }
@@ -110,8 +110,8 @@ h1 {
   gap: 1.5rem;
   margin-bottom: 1.2rem;
   font-size: 0.9rem;
-  color: #555;
-  background: #f5f5f5;
+  color: #e1e1e1;
+  background: #303030;
   padding: 0.8rem;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

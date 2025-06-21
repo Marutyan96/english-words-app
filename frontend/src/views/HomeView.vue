@@ -20,12 +20,12 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(11, 11, 11);
+  color: rgb(210, 210, 210);
 }
 
 .card {
-  background: white;
-  color: black;
+  background: rgb(58, 58, 58);
+  color: rgb(241, 241, 241);
   
   padding: 30px;
   border-radius: 8px;

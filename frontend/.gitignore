@@ -3,28 +3,59 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-.DS_Store
-dist
-dist-ssr
-coverage
-*.local
 
-/cypress/videos/
-/cypress/screenshots/
+
+# Build output
+dist/
+build/
+dist-ssr/
+out/
+
+# Test coverage
+coverage/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-
 *.tsbuildinfo
+
+# Optional: Ignore media/assets (если хранишь на внешнем сервисе)
+*.wav
+*.mp3
+*.ogg
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# Ignore production assets (если собираешь их динамически)
+*.map
+
+# Ignore LFS pointer files (если используешь git-lfs)
+*.lfs
+
+# Игнорировать node_modules везде
+**/node_modules/
+

@@ -122,7 +122,7 @@ export default {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  background-color: #fff;
+  background-color: #eaeaea;
 }
 
 .word-list-header {
@@ -130,20 +130,20 @@ export default {
   justify-content: space-between;
   align-items: center;
   padding: 15px 20px;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #eaeaea;
+  background-color: #323232;
+  border-bottom: 1px solid #a3f8e7;
 }
 
 .word-list-header h3 {
   margin: 0;
   font-size: 18px;
-  color: #333;
+  color: #d8d8d8;
   font-weight: 600;
 }
 
 .sort-button {
-  background: #ffffff;
-  border: 1px solid #ddd;
+  background: #9f9f9f;
+  border: 1px solid #47ca95;
   border-radius: 4px;
   padding: 5px 10px;
   font-size: 14px;
@@ -175,9 +175,7 @@ export default {
   transition: all 0.2s;
 }
 
-.word-item:hover {
-  background-color: #f8f9fa;
-}
+
 
 .word-item.learned {
   opacity: 0.8;
@@ -281,7 +279,7 @@ export default {
   display: flex;
   gap: 10px;
   padding: 15px 20px;
-  background-color: #f8f9fa;
+  background-color: #3d3d3d;
   border-top: 1px solid #eaeaea;
 }
 
